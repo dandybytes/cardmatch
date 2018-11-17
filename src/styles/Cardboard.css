@@ -1,0 +1,9 @@
+.card-board {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  /* border: 1px dotted red; */
+}
