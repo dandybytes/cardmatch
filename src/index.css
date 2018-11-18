@@ -52,8 +52,10 @@ header button {
 header button:hover {
   font-size: 1.5rem;
   opacity: 1;
-  color: #c2185b;
-  border: 2px solid #c2185b;
+  color: coral;
+  border: 2px solid coral;
+  /* color: #c2185b;
+  border: 2px solid #c2185b; */
 }
 
 .headline {
