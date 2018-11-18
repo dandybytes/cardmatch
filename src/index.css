@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background-color: #ececec;
 }
 
 .app {
@@ -60,9 +61,6 @@ header button:hover {
 
 .headline {
   text-align: center;
-}
-
-.headline h2 {
   margin: 0.6rem;
   font-size: 0.8rem;
   color: #666;
@@ -113,10 +111,25 @@ footer {
   font-size: 1.2rem;
 }
 
+.game-won {
+  color: firebrick;
+  text-align: center;
+  margin: 0.5rem 1rem 0 1rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 0.25rem;
+}
+
 @media only screen and (min-width: 375px) {
-  .headline h2 {
+  .headline {
     margin: 1rem 1rem 0 1rem;
     font-size: 0.95rem;
+  }
+
+  .game-won {
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -125,9 +138,14 @@ footer {
     padding: 1vw 10vw;
   }
 
-  .headline h2 {
+  .headline {
     margin: 1rem 1rem 1rem 1rem;
     font-size: 1.1rem;
+  }
+
+  .game-won {
+    margin: 2rem 1rem 0 1rem;
+    font-size: 1.8rem;
   }
 
   .card-board {
@@ -163,19 +181,25 @@ footer {
     font-size: 1.5rem;
   }
 
+  .game-won {
+    margin: 1.5rem 1rem 0 1rem;
+    font-size: 2.25rem;
+  }
+
   header button {
     font-size: 1.2rem;
     border: 2px solid white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     padding: 0.3rem 0.7rem;
+    outline: none;
   }
 
   header button:hover {
     font-size: 1.5rem;
-    border: 3px solid #c2185b;
+    border: 3px solid coral;
   }
 
-  .headline h2 {
+  .headline {
     margin: 1.5rem 1rem 0 1rem;
     font-size: 1.3rem;
   }
@@ -205,9 +229,14 @@ footer {
 }
 
 @media only screen and (min-width: 1450px) {
-  .headline h2 {
+  .headline {
     margin: 2.5rem 1rem 0 1rem;
     font-size: 1.3rem;
+  }
+
+  .game-won {
+    margin: 2rem 1rem 0 1rem;
+    font-size: 2.5rem;
   }
 
   .card-board {
