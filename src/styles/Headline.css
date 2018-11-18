@@ -1,7 +1,8 @@
 .headline {
-  margin: 0.5rem auto;
+  text-align: center;
 }
 
 .headline h2 {
-  color: #033750;
+  font-size: 1.2rem;
+  color: #666;
 }

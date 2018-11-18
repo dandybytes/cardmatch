@@ -1,6 +1,6 @@
 .card-board {
-  width: 50%;
-  height: 100%;
+  width: 75%;
+  min-width: 80vmin;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

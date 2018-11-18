@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Card.css";
 
-const Card = () => {
+const Card = ({ icon, color }) => {
   return (
     <div className="card">
-      <p>X</p>
+      <i className={icon} />
     </div>
   );
 };

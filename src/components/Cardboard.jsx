@@ -2,14 +2,12 @@ import React from "react";
 import Card from "./Card";
 import "../styles/Cardboard.css";
 
-const Cardboard = () => {
+const Cardboard = ({ cards }) => {
   return (
     <div className="card-board">
-      {Array(24)
-        .fill(1)
-        .map((x, i) => (
-          <Card key={i} />
-        ))}
+      {cards.map((card, i) => (
+        <Card key={i} icon={card.icon} color={card.color} />
+      ))}
     </div>
   );
 };

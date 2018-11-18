@@ -1,0 +1,8 @@
+
+screen size:
+
+min-width: 320
+min-height: 480
+
+max-width: 1920
+max-height: 1200

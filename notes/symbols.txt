@@ -1,0 +1,39 @@
+Unicode symbols:
+
+const symbols = ["&#x2618;", "&#x2600;", "&#x2605;", "&#x262F;", "&#x263A;", "&#x265B;", "&#x265E;", "&#x2660;", "&#x2663;", "&#x2665;", "&#x2666;", "&#x266A;", "&#x2684;", "&#x2691;", "&#x269B;", "&#x2622;", "&#x2620;", "&#x2694;"];
+
+FontAwesome:
+
+const symbols = ["fas fa-apple-alt", "fas fa-atom", "fas fa-award", "fas fa-bell", "fas fa-sun", "fas fa-bolt", "fas fa-bomb", "fas fa-cannabis", "fas fa-cocktail", "fas fa-crown", "fas fa-dice-five", "far fa-eye", "fas fa-feather", "fas fa-fist-raised", "fas fa-flask", "fas fa-ghost", "fas fa-gift", "fas fa-glass-martini-alt"];
+
+<i class="fas fa-apple-alt"></i>
+<i class="fas fa-atom"></i>
+<i class="fas fa-award"></i>
+
+<i class="fas fa-bell"></i>
+<i class="fas fa-sun"></i>
+<i class="fas fa-bolt"></i>
+
+<i class="fas fa-bomb"></i>
+<i class="fas fa-cannabis"></i>
+<i class="fas fa-cocktail"></i>
+
+<i class="fas fa-crown"></i>
+<i class="fas fa-dice-five"></i>
+<i class="far fa-eye"></i>
+
+<i class="fas fa-feather"></i>
+<i class="fas fa-fist-raised"></i>
+<i class="fas fa-flask"></i>
+
+<i class="fas fa-ghost"></i>
+<i class="fas fa-gift"></i>
+<i class="fas fa-glass-martini-alt"></i>
+
+
+
+<i class="far fa-grin-alt"></i>
+
+
+<i class="fas fa-chess-knight"></i>
+<i class="fas fa-chess-queen"></i>

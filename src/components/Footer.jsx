@@ -4,7 +4,9 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <p>Footer component here</p>
+      <p className="footer-text">
+        &#x2618; &#x2618; &#x2618; &#x2618; &#x2618;
+      </p>
     </footer>
   );
 };

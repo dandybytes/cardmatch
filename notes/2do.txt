@@ -1,0 +1,5 @@
+
+- functionality
+- media queries
+- "reset game" button style: hover, click
+- create "Logo" component and split game name into letter divs
