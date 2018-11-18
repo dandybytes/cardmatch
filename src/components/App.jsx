@@ -4,8 +4,6 @@ import Headline from "./Headline";
 import Cardboard from "./Cardboard";
 import Footer from "./Footer";
 
-import "../styles/App.css";
-
 class App extends Component {
   state = {
     cards: []

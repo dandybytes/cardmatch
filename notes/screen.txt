@@ -6,3 +6,15 @@ min-height: 480
 
 max-width: 1920
 max-height: 1200
+
+0 - 600px:
+    4 col x 9 rows
+
+> 600px:
+    6 col x 6 rows
+
+> 900px:
+    9 col x 4 rows
+
+> 1200px:
+    12 col x 3 rows

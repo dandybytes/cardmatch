@@ -9,3 +9,214 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  background-color: #0e788e;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header h1 {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #0e788e;
+  font-size: 1rem;
+}
+
+header button {
+  font-family: inherit;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+header button:hover {
+  font-size: 1.5rem;
+  opacity: 1;
+  color: #c2185b;
+  border: 2px solid #c2185b;
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline h2 {
+  margin: 0.6rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.card-board {
+  width: 75%;
+  min-width: 80vmin;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  /* border: 1px dotted red; */
+}
+
+.card {
+  min-width: 7vh;
+  min-height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vmin;
+  border: 0.2rem solid #999;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.card i {
+  font-size: 6vmin;
+  color: #999;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e788e;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-text {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 375px) {
+  .headline h2 {
+    margin: 1rem 1rem 0 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    padding: 1vw 10vw;
+  }
+
+  .headline h2 {
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 1.1rem;
+  }
+
+  .card-board {
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 0.8rem;
+  }
+
+  .card {
+    min-width: 10vmin;
+    min-height: 10vmin;
+    margin: 0.5vmin;
+    border: 0.2rem solid #999;
+  }
+
+  .card i {
+    font-size: 6.5vmin;
+  }
+
+  .footer-text {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  header {
+    padding: 1vw 13vw;
+  }
+
+  header h1 {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  header button {
+    font-size: 1.2rem;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 0.3rem 0.7rem;
+  }
+
+  header button:hover {
+    font-size: 1.5rem;
+    border: 3px solid #c2185b;
+  }
+
+  .headline h2 {
+    margin: 1.5rem 1rem 0 1rem;
+    font-size: 1.3rem;
+  }
+
+  .card-board {
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 0.8rem;
+  }
+
+  .card {
+    min-width: 12.5vmin;
+    min-height: 12.5vmin;
+    margin: 1vmin;
+    border: 0.2rem solid #999;
+  }
+
+  .card i {
+    font-size: 8vmin;
+  }
+
+  .footer-text {
+    margin: 0.5rem;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .headline h2 {
+    margin: 2.5rem 1rem 0 1rem;
+    font-size: 1.3rem;
+  }
+
+  .card-board {
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 2rem 0.5rem;
+  }
+
+  .card {
+    width: 6vmax;
+    height: 6vmax;
+    margin: 1vmin;
+    border: 0.2rem solid #999;
+  }
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import "../styles/Cardboard.css";
 
 const Cardboard = ({ cards }) => {
   return (
