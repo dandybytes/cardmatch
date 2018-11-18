@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "./Card";
 
-const Cardboard = ({ cards }) => {
+const Cardboard = ({ cards, onCardClick }) => {
   return (
     <div className="card-board">
       {cards.map((card, i) => (
-        <Card key={i} icon={card.icon} color={card.color} />
+        <Card key={i} index={i} card={card} onCardClick={onCardClick} />
       ))}
     </div>
   );
