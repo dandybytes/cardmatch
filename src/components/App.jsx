@@ -39,7 +39,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <Header />
+        <Header reset={this.generateCardBoard} />
         <Headline />
         <Cardboard cards={this.state.cards} />
         <Footer />
